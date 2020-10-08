@@ -17,7 +17,8 @@ def factors(a):
         if a % i == 0:
             factorList.append(i)
     factorList.sort()
+    return factorList
 
 
-factors(12)
-print(factorList)
+x = factors(12)
+print(x)
